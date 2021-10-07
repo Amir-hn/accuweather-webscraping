@@ -15,7 +15,8 @@ class IO {
    * @memberof IO
    */
   static getLink = () => {
-    return prompt("Please enter your link:");
+    const p = prompt({ sigint: true });
+    return p("Please enter your link:");
   };
 
   /**
