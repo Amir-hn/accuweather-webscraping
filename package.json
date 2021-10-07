@@ -4,8 +4,9 @@
   "description": "scrap accuweather datas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Amir-hn/accuweather-webscraping.git"
@@ -19,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/Amir-hn/accuweather-webscraping/issues"
   },
-  "homepage": "https://github.com/Amir-hn/accuweather-webscraping#readme"
+  "homepage": "https://github.com/Amir-hn/accuweather-webscraping#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "axios": "^0.22.0",
+    "cheerio": "^1.0.0-rc.10",
+    "prompt-sync": "^4.2.0"
+  }
 }
